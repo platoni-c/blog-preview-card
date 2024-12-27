@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/input.css" />
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Blog Preview Card</title>
+  </head>
+  <body class="bg-siteBg flex justify-center items-center min-h-svh">
+    <main class="font-figtree">
+      <div class="flex flex-col bg-white p-6 shadow-2xl rounded-3xl card">
+        <img
+          src="assets/images/illustration-article.svg"
+          alt=""
+          class="rounded-lg"
+        />
+        <p
+          class="flex w-20 px-3 py-2 mt-6 bg-siteBg text-black font-bold rounded-md text-sm heavy"
+        >
+          Learning
+        </p>
+        <div class="pt-3 pb-2">
+          <p>Published 21 Dec 2023</p>
+        </div>
+        <div
+          class="text-titleColor font-bold text-2xl py-3 hover:text-siteBg cursor-pointer"
+        >
+          <a class="heavy">HTML & CSS foundations</a>
+        </div>
+        <div class="text-parColor">
+          <p>
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+        <div class="flex pt-6 pb-4 items-center gap-4">
+          <img
+            src="assets/images/image-avatar.webp"
+            alt=""
+            class="object-contain w-9 h-9 rounded-full"
+          />
+          <p class="text-titleColor text-sm font-bold heavy">Greg Hooper</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
